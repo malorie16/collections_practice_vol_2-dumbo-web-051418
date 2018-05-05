@@ -18,6 +18,6 @@ end
 
 def first_wa(array)
   array.find do |word|
-    word.include?("wa")
+    if word.include?("wa")
   end
 end
