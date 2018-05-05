@@ -15,3 +15,9 @@ def contain_a(array)
   end
   has_a
 end
+
+def first_wa(array)
+  array.find do |word|
+    word.include?("wa")
+  end
+end
