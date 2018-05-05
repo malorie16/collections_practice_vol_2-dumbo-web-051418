@@ -18,7 +18,12 @@ end
 
 def first_wa(array)
   has_wa = array.each do |word|
-    puts word if word.include?("wa")
+    puts word if word.find("wa")
   end
   array
+end
+
+def remove_non_strings(array)
+  array.find do |word| ("")
+  end
 end
