@@ -1,9 +1,9 @@
 def begins_with_r(array)
   i = 0
-  r = []
+  has_r = []
   while i < array.length
-    r = array[i].start_with?("r")
+    has_r = array[i].start_with?("r")
     i+=1
   end
-  r
+  has_r
 end
