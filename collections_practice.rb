@@ -21,4 +21,5 @@ def first_wa(array)
   array.each do |word|
     has_wa << word if word.include?("wa")
   end
+  has_wa
 end
