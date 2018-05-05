@@ -9,11 +9,9 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  i = 0
   has_a = []
-  while i < array.length
-    has_a << array[i].include?("a")
-    i+=1
+  array.each do |word|
+    has_a << word.include?("a")
   end
   has_a
 end
