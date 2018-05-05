@@ -19,7 +19,7 @@ end
 def first_wa(array)
   has_wa = []
   array.each do |word|
-    word if word.include?("wa")
+    has_wa << word if word.include?("wa")
     end
   end
 end
