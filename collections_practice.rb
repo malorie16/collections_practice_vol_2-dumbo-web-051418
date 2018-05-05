@@ -24,6 +24,7 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  array.find do |word| ("wa")
+  array.find do |word| ("walearn
+    ")
   end
 end
