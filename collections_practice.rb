@@ -20,4 +20,5 @@ def first_wa(array)
   new_array = []
   new_array << array.find do |word| ("wa")
 end
+new_array
 end
