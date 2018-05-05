@@ -1,8 +1,4 @@
 def begins_with_r(array)
-  i = 0
-  while i < array.length
+  array.collect {|name| name.start_with?("r")}
 
-  arraystart_with?('r')
-  i+=1
-end
 end
