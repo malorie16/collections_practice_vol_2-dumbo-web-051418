@@ -18,7 +18,7 @@ end
 
 def remove_non_strings(array)
   new_array = []
-  new_array << array.find do |word| ("wa")
+  new_array << array.find do |word| ("")
 end
 new_array
 end
