@@ -19,6 +19,6 @@ end
 def first_wa(array)
   has_wa = []
   array.find do |word|
-    word.find?("wa")
+    word.find("wa")
   end
 end
