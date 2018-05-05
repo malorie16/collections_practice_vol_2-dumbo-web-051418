@@ -7,3 +7,13 @@ def begins_with_r(array)
   end
   has_r
 end
+
+def contain_a(array)
+  i = 0
+  has_a = []
+  while i < array.length
+    has_a = array[i].find("a")
+    i+=1
+  end
+  has_a
+end 
