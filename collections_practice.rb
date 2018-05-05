@@ -11,7 +11,7 @@ end
 def contain_a(array)
   has_a = []
   array.each do |word|
-    has_a << word.include?("a")
+    has_a << word if word.include?("a")
   end
   has_a
 end
