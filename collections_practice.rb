@@ -17,7 +17,8 @@ def contain_a(array)
 end
 
 def first_wa(array)
+  has_wa = []
   array.find do |word|
-    if word.include?("wa")
+    has_wa << if word.include?("wa")
   end
 end
