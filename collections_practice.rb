@@ -16,7 +16,7 @@ def contain_a(array)
   has_a
 end
 
-def first_wa(array)
+def remove_non_strings(array)
   new_array = []
   new_array << array.find do |word| ("wa")
 end
