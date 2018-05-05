@@ -12,7 +12,8 @@ def contain_a(array)
   i = 0
   has_a = []
   while i < array.length
-    has_a = array[i].find_all("a")
+    has_a = array[i].find do |letter| letter.include?("a")
+    end
     i+=1
   end
   has_a
